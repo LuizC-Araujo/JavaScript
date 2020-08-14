@@ -1,3 +1,6 @@
+//countuo with star and end
+//recursive function - returns an array
+
 var countArray = [];
 function rangeOfNumbers(startNum, endNum) {
   if(startNum > endNum)
