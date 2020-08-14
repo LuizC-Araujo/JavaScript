@@ -25,13 +25,8 @@ var collection = {
   }
 };
 
-// console.log(collection[5439].artist)
-// var id=5439;
-// var prop = "artist"
-// var value = "John Me"
-// collection[id].prop = value
-// console.log(collection[id].prop)
-// Only change code below this line
+//function receives id property and value
+//add new property or change it in the object
 function updateRecords(id, prop, value) {
   if(prop != "tracks" && value != ""){
     collection[id][prop] = value;
