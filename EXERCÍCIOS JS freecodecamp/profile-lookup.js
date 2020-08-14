@@ -26,7 +26,7 @@ var contacts = [
     }
 ];
 
-// console.log(contacts[0]["firstName"])
+//look for a name and if this name has a property return it
 function lookUpProfile(name, prop){
     var nome = true;
     var propriedade = true;
